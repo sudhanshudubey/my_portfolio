@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <nav>
       <div>
-        <img src="/images/logo.svg" className="dark:invert" />
+        <img src={`${import.meta.env.BASE_URL}images/logo.svg`} className="dark:invert" />
         <p className="font-bold">Sudhanshu's Portfolio</p>
 
         <ul>

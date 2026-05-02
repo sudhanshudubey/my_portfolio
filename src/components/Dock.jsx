@@ -89,7 +89,7 @@ const Dock = () => {
                 disabled={!canOpen}
               >
                 <img
-                  src={`/images/${icon}`}
+                  src={`${import.meta.env.BASE_URL}images/${icon}`}
                   alt={name}
                   loading="lazy"
                   className={canOpen ? "" : "opacity-60"}

@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import {
   DropdownMenu,
   DropdownMenuContent,
-  DropdownMenuGroup,
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "./ui/dropdown-menu";
@@ -46,7 +45,7 @@ const Theme = () => {
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
         <button className="cursor-pointer mt-1.5 select-none outline-0">
-          <img src="/icons/mode.svg" className="icon dark:invert" />
+          <img src={`${import.meta.env.BASE_URL}icons/mode.svg`} className="icon dark:invert" />
         </button>
       </DropdownMenuTrigger>
 

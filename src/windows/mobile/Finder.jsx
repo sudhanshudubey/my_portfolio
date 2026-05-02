@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { ChevronRight, Folder } from "lucide-react";
+import { ChevronRight } from "lucide-react";
 import MobileWindowWrapper from "#hoc/MobileWindowWrapper";
 import MobileWindowHeader from "#components/mobile/WindowHeader";
 import useWindowStore from "#store/window";
@@ -92,7 +92,7 @@ const MobileFinderContent = () => {
               <div className="finder-item">
                 {item.kind === "folder" ? (
                   <img
-                    src="/images/folder.png"
+                    src={`${import.meta.env.BASE_URL}images/folder.png`}
                     alt="folder"
                     className="size-16"
                   />

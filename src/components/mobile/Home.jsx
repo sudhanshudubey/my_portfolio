@@ -8,10 +8,10 @@ const MobileHome = () => {
     <section id="mobile-home">
       <ul>
         <li onClick={() => openWindow("resume")}>
-          <img src="/images/pages.png" alt="pages" />
+          <img src={`${import.meta.env.BASE_URL}images/pages.png`} alt="pages" />
         </li>
         <li onClick={() => openWindow("terminal")}>
-          <img src="/images/terminal.png" alt="terminal" />
+          <img src={`${import.meta.env.BASE_URL}images/terminal.png`} alt="terminal" />
         </li>
       </ul>
     </section>

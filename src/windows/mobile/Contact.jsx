@@ -9,7 +9,7 @@ const MobileContactContent = () => {
 
       <div className="content">
         <img
-          src="/images/adrian.jpg"
+          src={`${import.meta.env.BASE_URL}images/IMG_2486.JPG`}
           alt="Adrian"
           className="w-20 rounded-full"
         />

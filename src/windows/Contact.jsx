@@ -11,7 +11,7 @@ const Contact = () => (
 
     <div className="p-5 space-y-5">
       <img
-        src="public/images/IMG_2486.JPG"
+        src={`${import.meta.env.BASE_URL}images/IMG_2486.JPG`}
         alt="Sudhanshu Dubey"
         className="w-25 rounded-full h-25 object-cover "
       />

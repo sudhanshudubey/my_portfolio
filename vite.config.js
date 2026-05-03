@@ -38,9 +38,8 @@ import tailwindcss from "@tailwindcss/vite";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
-// IMPORTANT: GitHub Pages base path must match repo name
 export default defineConfig({
-  base: "/my_portfolio/",
+  base: "/",
 
   plugins: [react(), tailwindcss()],
 

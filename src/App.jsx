@@ -23,8 +23,10 @@ import MobileFinder from "#windows/mobile/Finder";
 import MobileTerminal from "#windows/mobile/Terminal";
 gsap.registerPlugin(Draggable);
 
+const wallpaper = `url(${import.meta.env.BASE_URL}images/wallpaper-bg.jpg)`;
+
 const App = () => (
-  <main>
+  <main style={{ backgroundImage: wallpaper, backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}>
     <Navbar />
     <MobileNavbar />
 

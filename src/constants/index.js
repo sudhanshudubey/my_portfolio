@@ -258,7 +258,7 @@ const WORK_LOCATION = {
           icon: `${base}images/safari.png`,
           kind: "file",
           fileType: "url",
-          href: "https://sudhanshudubey.github.io/gta_landing_page/",
+          href: "https://sudhanshu-gta-clone.netlify.app",
           position: "top-10 right-20",
         },
       ],

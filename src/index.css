@@ -97,7 +97,7 @@
 
 html,
 body {
-  @apply w-dvw h-dvh overflow-hidden bg-[url('public/images/jujutsu-kaisen-satoru-gojo-glitch-anime-desktop-wallpaper-4k.png')] bg-cover bg-no-repeat bg-center;
+  @apply w-dvw h-dvh overflow-hidden bg-cover bg-no-repeat bg-center;
   font-family: var(--font-primary);
 }
 
@@ -107,7 +107,7 @@ body {
   }
 
   #welcome {
-    @apply text-gray-200 flex flex-col justify-center items-center absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 select-none;
+    @apply text-gray-200 flex flex-col justify-center items-center absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 select-none w-full px-6 text-center;
   }
 
   .welcome-portfolio-title {
@@ -144,10 +144,14 @@ body {
     }
 
     .dock-icon {
-      @apply max-sm:size-full size-14 3xl:size-20 cursor-pointer;
+      @apply max-sm:size-full size-14 3xl:size-20 cursor-pointer overflow-hidden rounded-2xl;
 
       img {
-        @apply object-cover object-center;
+        @apply w-full h-full object-contain object-center;
+      }
+
+      &:disabled img {
+        filter: drop-shadow(0 0 6px rgba(0, 0, 0, 0.7));
       }
     }
   }

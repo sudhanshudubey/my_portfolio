@@ -836,7 +836,7 @@ const WORK_LOCATION = {
           icon: `${base}images/txt.png`,
           kind: "file",
           fileType: "txt",
-          href: "https://github.com/sudhanshudubey/Divinark",
+          href: "",
           position: "top-5 right-10",
           description: ["A local coding agent with real-time inference monitoring",
                         "tool-execution telemetry, and evidence-based failure investigation","all wrapped in a retro CRT dashboard."

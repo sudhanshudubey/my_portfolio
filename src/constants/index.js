@@ -1016,7 +1016,7 @@ const ABOUT_LOCATION = {
       kind: "file",
       fileType: "img",
       position: "top-28 right-72",
-      imageUrl: `${base}images/IMG_2653.JPG`,
+      imageUrl: ``,
     },
     {
       id: 3,

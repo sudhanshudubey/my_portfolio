@@ -11,7 +11,7 @@ const Navbar = () => {
     <nav>
       <div>
         <img src={`${import.meta.env.BASE_URL}images/logo.svg`} className="dark:invert" />
-        <p className="font-bold">Sudhanshu's Portfolio</p>
+        <p className="font-bold">Ashu's Portfolio</p>
 
         <ul>
           {navLinks.map(({ id, type, name }) => (

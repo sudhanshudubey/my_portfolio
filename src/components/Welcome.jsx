@@ -47,7 +47,7 @@ const setupTextHover = (container, type) => {
   };
 
   const handleMouseLeave = () =>
-    letters.forEach((l) => animateLetter(l, base, 0.3));
+    letters.forEach((l) => animateLetter(l, base, 0.5));
 
   container.addEventListener("mousemove", handleMouseMove);
   container.addEventListener("mouseleave", handleMouseLeave);
@@ -76,15 +76,15 @@ const Welcome = () => {
     <section id="welcome">
       <p ref={subtitleRef}>
         {renderText(
-          "Hey, I'm Sudhanshu! welcome to my",
+          "Hey, I’m Ashu — I build things, break things, then pretend it was ",
           "max-sm:text-2xl text-3xl font-sans",
-          120
+          130
         )}
       </p>
 
       <h1 ref={titleRef} className="mt-7">
         {renderText(
-          "portfolio.",
+          "intentional.",
           "max-sm:text-7xl text-9xl italic welcome-portfolio-title",
           400
         )}

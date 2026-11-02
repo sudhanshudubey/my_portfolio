@@ -39,7 +39,7 @@ import tailwindcss from "@tailwindcss/vite";
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
 export default defineConfig({
-  base: "/",
+  base: "/my_portfolio/",
 
   plugins: [react(), tailwindcss()],
 

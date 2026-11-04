@@ -39,7 +39,7 @@ const MobileResumeContent = () => {
       <MobileWindowHeader windowKey="resume" title="Resume" />
 
       <div ref={containerRef} className="w-full">
-        <Document className="resume-pdf" file="files/resume.pdf">
+        <Document className="resume-pdf" file="files/CV_%20Sudhanshu.pdf">
           <Page
             pageNumber={1}
             width={containerWidth || undefined}

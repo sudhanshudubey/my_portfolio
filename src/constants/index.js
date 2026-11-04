@@ -1002,24 +1002,6 @@ const ABOUT_LOCATION = {
   children: [
     {
       id: 1,
-      name: "Aawwkward",
-      icon: `${base}images/IMG_3006.JPG`,
-      kind: "file",
-      fileType: "img",
-      position: "top-10 left-5",
-      imageUrl: `${base}images/IMG_3006.JPG`,
-    },
-    {
-      id: 2,
-      name: "Cringe",
-      icon: `${base}images/IMG_2653.JPG`,
-      kind: "file",
-      fileType: "img",
-      position: "top-28 right-72",
-      imageUrl: ``,
-    },
-    {
-      id: 3,
       name: "Google_conference.png",
       icon: `${base}images/IMG_2985.jpg`,
       kind: "file",
@@ -1028,14 +1010,13 @@ const ABOUT_LOCATION = {
       imageUrl: `${base}images/IMG_2985.jpg`,
     },
     {
-      id: 4,
+      id: 2,
       name: "about-me.txt",
       icon: `${base}images/txt.png`,
       kind: "file",
       fileType: "txt",
       position: "top-60 left-5",
       subtitle: "Meet the Developer Behind the Code",
-      image: `${base}images/IMG_2486.JPG`,
       description: [
         "Hey! I'm Sudhanshu 👋, a web developer who enjoys building sleek, interactive websites that actually work well.",
         "I specialize in JavaScript, React, and Next.js—and I love making things feel smooth, fast, and just a little bit delightful.",

@@ -990,6 +990,38 @@ const WORK_LOCATION = {
         },
       ],
     },
+    // ▶ Project 7
+    {
+      id: 11,
+      name: "ML_Class_Project",
+      icon: `${base}images/folder.png`,
+      kind: "folder",
+      position: "top-60 left-20",
+      windowPosition: "top-[52vh] left-[40vw]",
+      children: [
+        {
+          id: 1,
+          name: "ML_Class_Project.txt",
+          icon: `${base}images/txt.png`,
+          kind: "file",
+          fileType: "txt",
+          position: "top-5 left-10",
+          description: [
+            "Read my github repository of this ML class project where I implemented all my learning and knowledge of machine learning to solve a real world problem.",
+            "This project is done by using the concepts of supervised learning and regression techniques to predict the outcome."," This project can be better by using some advance techniques of machine learning and deep learning."
+          ],
+        },
+        {
+          id: 2,
+          name: "ML_Class_Project",
+          icon: `${base}images/safari.png`,
+          kind: "file",
+          fileType: "url",
+          href: "https://sudhanshudubey.github.io/ML_class_project/",
+          position: "top-20 right-20",
+        },
+      ],
+    },
   ],
 };
 

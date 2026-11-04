@@ -1017,7 +1017,7 @@ const WORK_LOCATION = {
           icon: `${base}images/safari.png`,
           kind: "file",
           fileType: "url",
-          href: "https://sudhanshudubey.github.io/ML_class_project/",
+          href: "https://github.com/sudhanshudubey/ML_class_project",
           position: "top-20 right-20",
         },
       ],
@@ -1038,9 +1038,30 @@ const ABOUT_LOCATION = {
       icon: `${base}images/IMG_2985.jpg`,
       kind: "file",
       fileType: "img",
-      position: "top-52 left-80",
+      position: "top-32 left-80",
       imageUrl: `${base}images/IMG_2985.jpg`,
     },
+
+    {
+      id: 2,
+      name: "Meeeeee",
+      icon: `${base}images/IMG_2486.JPG`,
+      kind: "file",
+      fileType: "img",
+      position: "top-52 left-80",
+      imageUrl: `${base}images/IMG_2486.JPG`,
+    },
+
+    {
+      id: 3,
+      name: "Awwkward",
+      icon: `${base}images/IMG_3006.JPG`,
+      kind: "file",
+      fileType: "img",
+      position: "top-52 left-80",
+      imageUrl: `${base}images/IMG_3006.JPG`,
+    },
+    
     {
       id: 2,
       name: "about-me.txt",
